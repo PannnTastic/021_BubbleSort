@@ -53,7 +53,7 @@ void display() {
     cout << "Element Array yang telah tersusun\n";
     cout << "=================\n";
     cout << endl;
-    for (intj = 0; j < n; j++) {
+    for (int j = 0; j < n; j++) {
         cout << arr[j];
         if (j < n - 1) {
             cout << "-->";
@@ -68,5 +68,9 @@ void display() {
 
 
 int main() {
-
+    input();
+    bubbleSortArray();
+    display();
+    system("pause");
+    return 0;
 }
