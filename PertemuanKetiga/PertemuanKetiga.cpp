@@ -13,17 +13,17 @@ void input() {
         else {
             cout << "\nArray hanya dapat menampung 20 elemen\n";
         }
-        cout << endl;
-        cout << "=================\n";
-        cout << "Masukkan Elemen Array\n";
-        cout << "================\n";
-
-        for (int i = 0; i < n; i++) {
-            cout << "Data ke-" << (i + 1) << ": ";
-            cin >> arr[i];
-        }
-
     }
+
+     cout << endl;
+     cout << "=================\n";
+     cout << "Masukkan Elemen Array\n";
+     cout << "================\n";
+
+     for (int i = 0; i < n; i++) {
+         cout << "Data ke-" << (i + 1) << ": ";
+         cin >> arr[i];
+     }
 
 }
 
