@@ -28,7 +28,7 @@ void input() {
 }
 
 void bubbleSortArray() {
-    int pass = 1;
+    int pass = 1; 
     do {
         for (int j = 0; j <= n - 1 - pass; j++) {
             if (arr[j] > arr[j + 1]) {
@@ -47,7 +47,23 @@ void bubbleSortArray() {
     } while (pass <= n - 1);
 }
 
-
+void display() {
+    cout << endl;
+    cout << "=================\n";
+    cout << "Element Array yang telah tersusun\n";
+    cout << "=================\n";
+    cout << endl;
+    for (intj = 0; j < n; j++) {
+        cout << arr[j];
+        if (j < n - 1) {
+            cout << "-->";
+        }
+    }
+    cout << endl;
+    cout << endl;
+    cout << "Jumlah Pass = " << n - 1 << endl;
+    cout << endl;
+}
 
 
 
